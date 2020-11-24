@@ -56,7 +56,6 @@ survivalTime = Math.ceil(frameCount/frameRate());
     monkey.velocityX = 0;
     obstacleGroup.velocityX = 0;
   }
-  
   spawnObstacles();
   spawnBananas();
 }
